@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(https://assets.bonappetit.com/photos/5c366551f212512d0e6cefd0/16:9/w_2560%2Cc_limit/Basically-Coffee-0219-03.jpg);
+    background-size: cover;
+}
+
+#container {
+    background-color: #deb887;
+    width: 700px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 80px;
+    font-family: "Yesteryear", cursive;
+}
+
+/* Bar name */
+h1 {
+    font-size: 60px;
+    text-align: center;
+    margin: 20px;
+}
+
+#date {
+    text-align: center;
+    margin: 5px;
+}
+
+hr {
+    height: 5px;
+    background-color: #a52a2a;
+    border-top: #511414;
+    margin: 10px 0;
+}
+
+
+h2,
+.coffee,
+.desserts {
+    text-align: center;
+}
+
+.coffee-img,
+.dessert-img {
+    width: 60px;
+    margin: auto;
+}
+
+.coffee-img img,
+.dessert-img img {
+    width: 100%;
+}
+
+
+section {
+    display: block;
+    text-align: center;
+    margin: 20px 0;
+    font-size: 25px;
+    clear: both;
+}
+
+div {
+    margin-bottom: 10px;
+}
+
+.items,
+.price {
+    float: left;
+    width: 50%;
+}
+
+.items {
+    text-align: left;
+}
+
+.price {
+    text-align: end;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+footer {
+    margin-top: 30px;
+    text-align: center;
+}
+
+footer>#adress {
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+footer>a {
+    font-size: 18px;
+    color: black;
+}
